@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🧭 Trip Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧭 Trip Planner</h1>
+
+    <div class="form-group">
+      <input type="text" id="country" placeholder="Country" />
+      <input type="text" id="city" placeholder="City" />
+      <input type="date" id="date" />
+      <textarea id="notes" placeholder="Add notes (e.g., hotel, sights)"></textarea>
+      <button onclick="addTrip()">➕ Add Trip</button>
+    </div>
+
+    <div class="trip-list" id="tripList"></div>
+
+    <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
