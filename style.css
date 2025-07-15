@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.trip {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 15px;
+  background: #fff;
+  position: relative;
+}
+
+.trip h3 {
+  margin: 0;
+}
+
+.trip small {
+  color: #666;
+}
+
+.trip .map-link {
+  display: block;
+  margin-top: 5px;
+  color: #007BFF;
+}
+
+.trip button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: #fff;
+  border: none;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #eee;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background: #1e1e1e;
+  color: #eee;
+  border: 1px solid #444;
+}
+
+.dark-mode .trip {
+  background: #222;
+  border-color: #444;
+}
